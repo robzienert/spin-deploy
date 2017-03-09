@@ -35,15 +35,16 @@ metadata:
 
 targets:
   loadtest:
-    # Look for an example of such a template in `../_templates/simple.yml`
-    template: s3://mybucket-dcd-templates/simple.yml
+    # Pretend this has a bunch of deploy-related stages in it.
+    template: s3://mybucket-dcd-templates/deploy.yml
     notifications:
       on.error:
       - type: slack
         channel: '#det'
 
   prod:
-    template: s3://mybucket-dcd-templates/prod.yml
+    # Pretend that this template exists, and that it has a "deploy" stage in it.
+    template: s3://mybucket-dcd-templates/deploy.yml
     notifications:
       on.error:
       - type: slack
