@@ -1,0 +1,8 @@
+---
+schema: "1"
+metadata:
+  app: spintest
+
+targets:
+  test:
+    template: https://gist.githubusercontent.com/robzienert/04f326f3077df176b1788b30e06ed981/raw/b9eed8643e9028d27f21c3dee7ca3b0b1f8c9fee/barebones.yml
