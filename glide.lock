@@ -1,0 +1,43 @@
+hash: a8230fd3fb94d6805e429d2924ef6c5c2cbeab46b662e7b6c2f2e4abc32064fc
+updated: 2017-03-08T11:19:11.697713381-08:00
+imports:
+- name: github.com/BurntSushi/toml
+  version: 5c4df71dfe9ac89ef6287afc05e4c1b16ae65a1e
+- name: github.com/hashicorp/hcl
+  version: 8cc810768200e949a2a92972845244f6a818f68d
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/kr/pretty
+  version: e6ac2fc51e89a3249e82157fa0bb7a18ef9dd5bb
+- name: github.com/kr/text
+  version: bb797dc4fb8320488f47bf11de07a733d7233e1f
+- name: github.com/magiconair/properties
+  version: c81f9d71af8f8cba1466501d30326b99a4e56c19
+- name: github.com/mitchellh/mapstructure
+  version: 281073eb9eb092240d33ef253c404f1cca550309
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: github.com/spf13/cast
+  version: ee7b3e0353166ab1f3a605294ac8cd2b77953778
+- name: github.com/spf13/cobra
+  version: fcd0c5a1df88f5d6784cb4feead962c3f3d0b66c
+- name: github.com/spf13/jwalterweatherman
+  version: d00654080cddbd2b082acaa74007cb94a2b40866
+- name: github.com/spf13/pflag
+  version: 7f60f83a2c81bc3c3c0d5297f61ddfa68da9d3b7
+- name: github.com/spf13/viper
+  version: a212099cbe6fbe8d07476bfda8d2d39b6ff8f325
+- name: gopkg.in/fsnotify.v1
+  version: 8611c35ab31c1c28aa903d33cf8b6e44a399b09e
+- name: gopkg.in/yaml.v2
+  version: f7716cbe52baa25d2e9b0d0da546fcf909fc16b4
+testImports: []
