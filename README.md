@@ -1,5 +1,7 @@
 # spin-deploy
 
+**DEPRECATED: Use [tiller](https://github.com/robzienert/tiller) instead.**
+
 *IMPORTANT: This is a WIP / POC. Maybe don't rely on it too heavily now.*
 
 A command-line deployment script that wraps the [Spinnaker](www.spinnaker.io)
