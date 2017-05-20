@@ -1,8 +1,6 @@
-# spin-deploy
-
 **DEPRECATED: Use [tiller](https://github.com/robzienert/tiller) instead.**
 
-*IMPORTANT: This is a WIP / POC. Maybe don't rely on it too heavily now.*
+# spin-deploy
 
 A command-line deployment script that wraps the [Spinnaker](www.spinnaker.io)
 DCD ([declarative continuous delivery](https://github.com/spinnaker/dcd-spec))
